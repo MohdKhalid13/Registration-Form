@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://bootswatch.com/4/yeti/bootstrap.min.css">
+    <link rel="icon" href="./icon.jpg">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./container.js"></script>
+
+
+    <title>Mohd Khalid</title>
+</head>
+<body>
+
+<form autocomplete="off">
+
+    <div class="container mt-3">
+        <div class="display-4 text-center">  <h1><center><i class="fa fa-globe"></i>Registration Form </center></h1>  </div>
+
+    <div class="row row-cols-2">
+
+        <div class="form-group">FIRST NAME:
+            <input type="" placeholder="Enter The First Name" id="fname" maxlength="15" class="form-control">
+        </div>
+
+
+        <div class="form-group">LAST NAME:
+            <input type="" placeholder="Enter The Last Name" id="lname" maxlength="15" class="form-control">
+        </div>
+
+
+        <div class="form-group">E MAIL:
+            <input type="email" placeholder="Enter The Email id" id="email" class="form-control">
+        </div>
+
+
+        <div class="form-group">PASSWORD:
+            <input type="password" placeholder="Enter The password" id="password" class="form-control">
+        </div>
+
+
+        <div class="form-group">COUNTRY:
+            <input type="text" placeholder="Enter The Country Name"  maxlength="15" id="country" class="form-control">
+        </div>
+
+
+        <div class="form-group">MOBILE NO:
+            <input type="number" placeholder="Enter The Mobile No" max="10" id="mob" class="form-control">
+        </div>
+
+
+         <div class="form-group"> GENDER: 
+             <input type="text" placeholder="Enter Your gender" maxlength="10" class="form-control" id="gender">      
+        </div>
+
+
+        <div class="form-group">
+            D.O.B:
+            <input  type="date" value="D.O.B" id="dob" class="form-control"></input>
+        </div>
+      
+    </div>
+<br>
+            <div>
+                <input type="button" class="btn btn-success btn-block" value="Submit" onclick="onFormSubmit()">
+            </div>
+            <br>
+            <div>
+                <input type="button" class="btn btn-primary btn-block" id="reset" value="ResetForm" onclick="resetForm()">
+            </div>
+            <br>
+            <div>
+                <input type="button" class="btn btn-danger btn-block" id="reset" value="ResetPage" onclick="refresh()">
+            </div>
+            
+            <br>
+
+
+    <table class="table table-striped mt-4" id="Registration">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Country</th>
+                <th>E Mail</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+
+</div>
+</form>
+
+</body>
+</html>
